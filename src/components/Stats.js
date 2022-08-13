@@ -4,7 +4,7 @@ const Stats = ({count}) => {
     console.log(count);
     return (
         <div>
-            <h3>Total Count: {count}</h3>
+            <h3 className="fw-bold">Total Count: {count}</h3>
         </div>
     );
 };
